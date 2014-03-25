@@ -1,0 +1,18 @@
+# Python artifacts
+*.egg
+*.egg-info
+*.pyc
+env*/
+.tox/
+build/
+bin/
+dist/
+lib/
+include/
+
+# Editors
+*~
+.*.swp
+.idea
+*.iml
+*.ipr
