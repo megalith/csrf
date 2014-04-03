@@ -1,7 +1,7 @@
-``megalith_csrf``
+``megalith.csrf``
 =================
 
-``megalith_csrf`` provides global, application-level CSRF token validation for requests.
+``megalith.csrf`` provides global, application-level CSRF token validation for requests.
 
 License
 -------
