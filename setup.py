@@ -24,6 +24,7 @@ setup(
     url="http://www.megalithproject.org",
     license="MIT",
     packages=find_packages(),
+    namespace_packages=["megalith"],
     test_suite="megalith.csrf.tests",
     install_requires=install_requires,
     tests_require=test_requires
