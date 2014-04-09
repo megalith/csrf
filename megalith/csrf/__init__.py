@@ -4,7 +4,7 @@ from pyramid.session import check_csrf_token
 def validate_csrf(event):
     request = event.request
 
-    if request.method != "GET":
+    if request.method not in ("GET", "HEAD", "OPTIONS"):
         check_csrf_token(request)
 
 def includeme(config):
